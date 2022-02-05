@@ -1,0 +1,23 @@
+.club {
+display: flex;
+justify-content: center;
+font-family: 'Spectral', serif;
+font-style: normal;
+}
+.img1 {
+height: 150px;
+
+}
+.img2 {
+height: 150px;
+float: right;
+}
+.one {
+display: flex;
+justify-content: center;
+font-family: 'Spectral', serif;
+font-style: normal;
+}
+.header {
+background: linear-gradient(111.6deg, rgba(230, 195, 14, 0.5) 40.72%, rgba(234, 206, 57, 0) 64.18%), rgba(208, 244, 186, 0.5);
+} 
