@@ -1,12 +1,12 @@
 .club {
 display: flex;
+flex-wrap: wrap;
 justify-content: center;
 font-family: 'Spectral', serif;
 font-style: normal;
 }
 .img1 {
 height: 150px;
-
 }
 .img2 {
 height: 150px;
@@ -21,3 +21,25 @@ font-style: normal;
 .header {
 background: linear-gradient(111.6deg, rgba(230, 195, 14, 0.5) 40.72%, rgba(234, 206, 57, 0) 64.18%), rgba(208, 244, 186, 0.5);
 } 
+.quizy {
+font-family: 'Spectral', serif;
+font-style: normal;
+font-weight: normal;
+text-decoration-line: underline;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+margin-top: 10px;
+}
+#qz {
+background: rgba(204, 235, 226, 0.31);
+font-family: Sedan;
+font-style: normal;
+font-weight: normal;
+}
+.quest {
+margin: 25px;
+}
+.quiz {
+text-decoration: underline;
+}
