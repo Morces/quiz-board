@@ -43,7 +43,7 @@ margin: 25px;
 .quiz {
 text-decoration: underline;
 }
-.button {
+#button {
 background: #C4C4C4;
 border-radius: 10px;
 padding: 8px;
