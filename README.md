@@ -9,6 +9,11 @@ https://www.figma.com/file/zB28oA6WVHeI3bA90ybnci/Untitled?node-id=0%3A1
 ## SETUP requirements.
 You only need a device with internet connection, and a web browser to access this website. No complex hardware requirements needed.
 
+## Technology used
+HTML - for structuring the webpage
+CSS & Bootstrap - for styling the webpage
+JavaScript - for creating interactivity.
+
 ## Known Bugs
 Currently the website has not been optimized with the necessary authentication protocol so anyone can take the quiz as long as they have access to the link. Working on this.
 
