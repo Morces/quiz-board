@@ -40,7 +40,7 @@ font-weight: normal;
 .quiz {
 text-decoration: underline;
 }
-#submit-btn {
+#submitBtn {
 background-color: #f2eb90;
 border-radius: 20px;
 color: black;
@@ -55,8 +55,10 @@ flex-wrap: wrap;
 }
 #result {
 border: 1px solid black;
+border-radius: 10px;
 background-color: #f2eb90;
 color: black;
+text-align: center;
 }
 
 

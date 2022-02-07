@@ -1,80 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-  <script src="index.js"></script>
-  <title>js quiz board</title>
-</head>
-<body>
-<div class="header">
-  <h1 class="club">COMPUTER CLUB JAVASCRIPT QUIZ</h1>
-  <div class="step1">
-  <h1 class="one">ONE MORE STEP TO UNDERSTANDING JAVASCRIPT</h1>
-    <img class="img1" src="./img/javascript.png">
-    <img class="img2" src="./img/javascript.png">
-  </div>
-</div>
-  <h1 class="quizy">QUIZ BOARD</h1>
-<form name="quizes" id="qz">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <title>js quiz board</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1 class="club">COMPUTER CLUB JAVASCRIPT QUIZ</h1>
+      <div class="step1">
+        <h1 class="one">ONE MORE STEP TO UNDERSTANDING JAVASCRIPT</h1>
+        <img class="img1" src="./img/javascript.png" />
+        <img class="img2" src="./img/javascript.png" />
+      </div>
+    </div>
+    <h1 class="quizy">QUIZ BOARD</h1>
+    <form name="questions" id="qz">
       <div class="container">
-      <div class="quest">
-        <p class="quiz">Question 1</p>
-        <p>Which one of the following best describes JavaScript?</p>
-        <p><input type="radio" name="q1" value="It is a scripting language used to create interactivity in web pages.">It is a scripting language used to create interactivity in web pages.</p>
-        <p><input type="radio" name="q1" value="It is a programming language used to structure a webpage.">It is a programming language used to structure a webpage.</p>
-        <p><input type="radio" name="q1" value="It is a programming language used to style a webpage.">It is a programming language used to style a webpage.</p>
-        <p><input type="radio" name="q1" value="JavaScript is a branch of Java.">JavaScript is a branch of Java.</p>
+        <div class="quest">
+          <p class="quiz">Question 1</p>
+          <p>Which one of the following best describes JavaScript?</p>
+          <p>
+            <input
+              type="radio"
+              name="q1"
+              value="It is a scripting language used to create interactivity in web pages."
+            />It is a scripting language used to create interactivity in web
+            pages.
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="q1"
+              value="It is a programming language used to structure a webpage."
+            />It is a programming language used to structure a webpage.
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="q1"
+              value="It is a programming language used to style a webpage."
+            />It is a programming language used to style a webpage.
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="q1"
+              value="JavaScript is a branch of Java."
+            />JavaScript is a branch of Java.
+          </p>
+        </div>
+        <div class="quest">
+          <p class="quiz">Question 2</p>
+          <p>Among the following, which is not a data type in JavaScript?</p>
+          <p><input type="radio" name="q2" value="String" />String</p>
+          <p><input type="radio" name="q2" value="Boolean" />Boolean</p>
+          <p><input type="radio" name="q2" value="Number" />Number</p>
+          <p><input type="radio" name="q2" value="Alert" />Alert</p>
+        </div>
+        <div class="quest">
+          <p class="quiz">Question 3</p>
+          <p>
+            If you type the following in the console, what will be displayed? 6
+            > 7 > 8
+          </p>
+          <p><input type="radio" name="q3" value="True" />True</p>
+          <p><input type="radio" name="q3" value="False" />False</p>
+        </div>
+        <div class="quest">
+          <p class="quiz">Question 4</p>
+          <p>JavaScript is a ___-side programming language</p>
+          <p><input type="radio" name="q4" value="Client" />Client</p>
+          <p><input type="radio" name="q4" value="Server" />Server</p>
+          <p><input type="radio" name="q4" value="None" />None</p>
+          <p><input type="radio" name="q4" value="Both" />Both</p>
+        </div>
+        <div class="quest">
+          <p class="quiz">Question 5</p>
+          <p>
+            Which of the following code will write the messege “Javascript Quiz”
+            in the alert box?
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="q5"
+              value="alertBox(“Javascript Quiz”);"
+            />alertBox(“Javascript Quiz”);
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="q5"
+              value="alert(Javascript Quiz);"
+            />alert(Javascript Quiz);
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="q5"
+              value="msgAlert(“Javascript Quiz”);"
+            />msgAlert(“Javascript Quiz”);
+          </p>
+          <p>
+            <input
+              type="radio"
+              name="q5"
+              value="alert(“Javascript Quiz”);"
+            />alert(“Javascript Quiz”);
+          </p>
+        </div>
+        <div class="quest">
+          <p class="quiz">Question 6</p>
+          <p>
+            Which JavaScript label catches all the values, expect for the ones
+            specified?
+          </p>
+          <p><input type="radio" name="q6" value="Catch" />Catch</p>
+          <p><input type="radio" name="q6" value="Label" />Label</p>
+          <p><input type="radio" name="q6" value="Try" />Try</p>
+          <p><input type="radio" name="q6" value="Default" />Default</p>
+        </div>
+        <input
+          id="submitBtn"
+          type="submit"
+          value="SUBMIT QUIZ"
+          onclick="score()"
+          class="btn btn-success"
+        />
       </div>
-      <div class="quest">
-        <p class="quiz">Question 2</p>
-        <p>Among the following, which is not a data type in JavaScript?</p>
-        <p><input type="radio" name="q2" value="String">String</p>
-        <p><input type="radio" name="q2" value="Boolean">Boolean</p>
-        <p><input type="radio" name="q2" value="Number">Number</p>
-        <p><input type="radio" name="q2" value="Alert">Alert</p>   
-      </div>
-      <div class="quest">
-        <p class="quiz">Question 3</p>
-        <p>If you type the following in the console, what will be displayed?
-          6 > 7 > 8
-        </p>
-        <p><input type="radio" name="q3" value="True">True</p>
-        <p><input type="radio" name="q3" value="False">False</p>
-      </div>
-      <div class="quest">
-        <p class="quiz">Question 4</p>
-        <p>JavaScript is a ___-side programming language</p>
-        <p><input type="radio" name="q4" value="Client">Client</p>
-        <p><input type="radio" name="q4" value="Server">Server</p>
-        <p><input type="radio" name="q4" value="None">None</p>
-        <p><input type="radio" name="q4" value="Both">Both</p>
-      </div>
-      <div class="quest">
-        <p class="quiz">Question 5</p>
-        <p>Which of the following code will write the messege “Javascript Quiz” in the alert box?</p>
-        <p><input type="radio" name="q5" value="alertBox(“Javascript Quiz”);">alertBox(“Javascript Quiz”);</p>
-        <p><input type="radio" name="q5" value="alert(Javascript Quiz);">alert(Javascript Quiz);</p>
-        <p><input type="radio" name="q5" value="msgAlert(“Javascript Quiz”);">msgAlert(“Javascript Quiz”);</p>
-        <p><input type="radio" name="q5" value="alert(“Javascript Quiz”);">alert(“Javascript Quiz”);</p>
-      </div>
-      <div class="quest">
-        <p class="quiz">Question 6</p>
-        <p>Which JavaScript label catches all the values, expect for the ones specified?</p>
-        <p><input type="radio" name="q6" value="Catch">Catch</p>
-        <p><input type="radio" name="q6" value="Label">Label</p>
-        <p><input type="radio" name="q6" value="Try">Try</p>
-        <p><input type="radio" name="q6" value="Default">Default</p>
-      </div>
-      <input id="submit-btn" type="submit" value="SUBMIT QUIZ" class="btn btn-success" onclick="score()">
-      </div>
-</form>
-<div id="result"></div>
-<script src="index.js"></script>
-</body>
+    </form>
+    <div id="result"></div>
+    <script src="index.js"></script>
+  </body>
 </html>
